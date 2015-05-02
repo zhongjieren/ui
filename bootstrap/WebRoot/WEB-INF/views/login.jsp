@@ -55,7 +55,7 @@
 				</div> 
 			</div>
 			<div class="modal-footer">
-				<div class="col-md-3 col-sm-4"><a href="javascript:void(0)"><i class="fa fa-arrow-circle-left"></i> fa-arrow-circle-left</a></div>
+				<div class="col-md-3 col-sm-4"><a  href="javascript:void(0)"><i class="fa fa-arrow-circle-left"></i> fa-arrow-circle-left</a></div>
 			</div>
 		</div>
 		<!-- /.modal-content -->
