@@ -9,6 +9,7 @@ import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
@@ -47,9 +48,8 @@ public class EchoControler {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("echo");
 		mav.addObject("Echo", echo);
-		mav.addObject("Echo1", echo+echo);
-		
-		return mav;
+		mav.addObject("Echo1", echo+echo); 
+ 		return mav;
 	}
 	
 	@RequestMapping("/ping")
@@ -102,6 +102,9 @@ public class EchoControler {
 	public String indexTab(
 			@RequestParam(value="fileName", required=false, defaultValue="home") String fileName 
 			,Model model) {
+		if(StringUtils.equals("home", fileName)){
+			return "contact";
+		}
 		model.addAttribute("fileName", fileName);
 		return "front/index";
 	}
