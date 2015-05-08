@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "tiles-config_2_0.dtd" >
+<!-- <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd"> -->
+
+<tiles-definitions> 
+<!-- 	contact -->
+	<definition name="contact" extends="frontMain">
+		<put-attribute name="title" value="内容区域" />
+		<put-attribute name="body" value="/WEB-INF/views/front/index/contact.jsp" />
+	</definition>
+
+	<!-- 	bootstrapTable -->
+	<definition name="bootstrapTable" extends="frontMain">
+		<put-attribute name="title" value="tablePage" />
+		<put-attribute name="body" value="/WEB-INF/views/front/index/bootstrapTable.jsp" />
+	</definition>
+	
+	<!-- 	bootstrapTableCookie -->
+	<definition name="bootStrapTableCookie" template="/WEB-INF/views/front/bootstrapTable/cookie.jsp"/>
+	<definition name="bootStrapTableEditable" template="/WEB-INF/views/front/bootstrapTable/editable.jsp"/>
+	<definition name="bootStrapTableExport" template="/WEB-INF/views/front/bootstrapTable/export.jsp"/>
+	<definition name="bootStrapTableFilter" template="/WEB-INF/views/front/bootstrapTable/filter.jsp"/>
+	<definition name="bootStrapTableFlatJSON" template="/WEB-INF/views/front/bootstrapTable/flatJSON.jsp"/>
+	<definition name="bootStrapTableResizable" template="/WEB-INF/views/front/bootstrapTable/resizable.jsp"/>
+	<definition name="bootStrapTableSorting" template="/WEB-INF/views/front/bootstrapTable/sorting.jsp"/>
+	<definition name="bootStrapTableToolbar" template="/WEB-INF/views/front/bootstrapTable/toolbar.jsp"/>
+
+</tiles-definitions>  

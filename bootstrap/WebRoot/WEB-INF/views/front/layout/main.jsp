@@ -11,12 +11,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href='<c:url value="/assets/img/bootstrap/favicon.ico"/>' >
+    <link rel="icon" href='<c:url value="/assets/img/favicon.ico"/>' >
 
     <title>Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href='<c:url value="/assets/css/bootstrap/css/bootstrap.min.css"/>' rel="stylesheet">
+    <link href='<c:url value="/assets/bootstrap/css/bootstrap.min.css"/>' rel="stylesheet">
 	
     <!-- Custom styles for this template -->
     <link href='<c:url value="/assets/css/index.css"/>' rel="stylesheet">
@@ -24,16 +24,16 @@
 	<link href='<c:url value="/assets/css/login.css"/>' rel="stylesheet">
 	
 	<!-- awesome -->
-    <link href='<c:url value="/assets/css/awesome/css/font-awesome.css"/>' rel="stylesheet">
+    <link href='<c:url value="/assets/awesome/css/font-awesome.css"/>' rel="stylesheet">
 	
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src='<c:url value="/assets/js/bootstrap/ie8-responsive-file-warning.js"/>' ></script><![endif]-->
-    <script src='<c:url value="/assets/js/bootstrap/ie-emulation-modes-warning.js"/>' ></script>
+    <!--[if lt IE 9]><script src='<c:url value="/assets/bootstrap/ie8-responsive-file-warning.js"/>' ></script><![endif]-->
+    <script src='<c:url value="/assets/bootstrap/ie-emulation-modes-warning.js"/>' ></script>
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src='<c:url value="/assets/js/bootstrap/html5shiv.min.js"/>' ></script>
-      <script src='<c:url value="/assets/js/bootstrap/respond.min.js"/>' ></script>
+      <script src='<c:url value="/assets/bootstrap/html5shiv.min.js"/>' ></script>
+      <script src='<c:url value="/assets/bootstrap/respond.min.js"/>' ></script>
     <![endif]-->
   </head>
 
@@ -52,13 +52,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src='<c:url value="/assets/js/jquery/jquery-1.11.2.js"/>'></script>
+    <script src='<c:url value="/assets/jquery/jquery-1.11.2.js"/>'></script>
 <%--     <script src='<c:url value="/assets/js/bootstrap/bootstrap.min.js"/>' ></script> --%>
-	<script src='<c:url value="/assets/js/bootstrap/bootstrap.js"/>' ></script>
+	<script src='<c:url value="/assets/bootstrap/bootstrap.js"/>' ></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src='<c:url value="/assets/js/bootstrap/ie10-viewport-bug-workaround.js"/>' ></script>
+    <script src='<c:url value="/assets/bootstrap/ie10-viewport-bug-workaround.js"/>' ></script>
     <!-- dashboard -->
-    <script src='<c:url value="/assets/js/bootstrap/js/vendor/holder.js"/>' ></script>
+    <script src='<c:url value="/assets/bootstrap/js/vendor/holder.js"/>' ></script>
   	<!--  index content js-->
   	<script src='<c:url value="/assets/js/front/index.js"/>' ></script>
 	<!--  include login.jsp-->

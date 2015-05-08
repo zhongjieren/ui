@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "tiles-config_2_0.dtd" >
+<!-- <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd"> -->
 
 <tiles-definitions>
 	<definition name="frontMain" template="/WEB-INF/views/front/layout/main.jsp">
@@ -7,11 +8,5 @@
 		<put-attribute name="header" value="/WEB-INF/views/front/layout/header.jsp" /> 
 		<put-attribute name="body" value="" />
 		<put-attribute name="footer" value="/WEB-INF/views/front/layout/footer.jsp" />
-	</definition>
-
-	<definition name="contact" extends="frontMain">
-		<put-attribute name="title" value="内容区域" />
-		<put-attribute name="body" value="/WEB-INF/views/front/layout/contact.jsp" />
-	</definition>
-
+	</definition> 
 </tiles-definitions>  

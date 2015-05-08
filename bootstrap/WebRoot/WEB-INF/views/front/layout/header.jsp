@@ -28,9 +28,10 @@
 					title="This should be shifted down"> Help <span class="caret"></span>
 				</a>
 					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownBtn">
-						<li <c:if test="${'contact'== fileName }">class="active"</c:if>><a
-							href="<c:url value='/indexTab.do?fileName=bussinessflow'/>">BussinessFlow</a></li>
-						<li><a href="#">Another action</a></li>
+						<li <c:if test="${'contact'== fileName }">class="active"</c:if>>
+							<a href="<c:url value='/indexTab.do?fileName=bussinessflow'/>">BussinessFlow</a>
+						</li>
+						<li><a href="<c:url value='/indexTab.do?fileName=bootstrapTable'/>">BootstrapTable</a></li>
 						<li><a href="#">Something else here</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Nav header</li>
@@ -40,7 +41,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="javascript:void(0)">Default</a></li>
-				<li><a href="javascript:void(0)">Register <span
+				<li><a href="<c:url value='/goAdmin.do'/>">Admin<span
 						class="sr-only">(current)</span></a></li>
 				<li><a href="javascript:void(0)" data-toggle="modal"
 					data-target="#loginModal">Login</a></li>
